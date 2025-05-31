@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { ChevronLeft, ChevronRight, Star } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 
 export function TrustSection() {
@@ -303,9 +304,11 @@ export function TrustSection() {
               </div>
               <div className="flex-shrink-0">
                 <Button className="bg-gradient-to-r from-amber-500 to-yellow-600 hover:from-amber-600 hover:to-yellow-700 text-slate-900 font-semibold px-6 sm:px-8 py-3 sm:py-4 rounded-xl transition-all duration-300 hover:shadow-amber-500/30 hover:scale-105 shadow-lg relative overflow-hidden text-sm sm:text-base">
-                  <span className="relative z-10">
-                    Jetzt Termin vereinbaren
-                  </span>
+                  <Link href={"/#contact"}>
+                    <span className="relative z-10">
+                      Jetzt Termin vereinbaren
+                    </span>
+                  </Link>
                   <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full hover:translate-x-full transition-transform duration-700" />
                 </Button>
               </div>
