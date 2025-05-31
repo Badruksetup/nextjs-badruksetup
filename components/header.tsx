@@ -168,7 +168,7 @@ export function Header() {
             }`}
           >
             {/* Glassmorphism Menu Card */}
-            <div className="relative w-full max-w-md max-h-[85vh] overflow-hidden">
+            <div className="relative w-full max-w-md h-[85vh] overflow-hidden">
               {/* Multi-layered glass effect */}
               <div className="absolute inset-0 bg-gradient-to-br from-white/[0.15] via-white/[0.08] to-white/[0.12] backdrop-blur-3xl rounded-3xl border border-white/20 shadow-2xl" />
               <div className="absolute inset-0 bg-gradient-to-br from-amber-500/10 via-transparent to-yellow-500/10 rounded-3xl" />
@@ -204,37 +204,39 @@ export function Header() {
 
                 {/* Scrollable Navigation */}
                 <div className="flex-1 overflow-y-auto custom-scrollbar">
-                  <div className="p-6 space-y-2">
-                    {navItems.map((item, index) => (
-                      <button
-                        key={item.href}
-                        onClick={() => handleLinkClick(item.href)}
-                        className="w-full text-left group relative overflow-hidden rounded-2xl border border-white/5 hover:border-white/20 transition-all duration-300 hover:scale-[1.02]"
-                        style={{
-                          animationDelay: `${index * 50}ms`,
-                          animation: `slideInFromRight 0.5s ease-out forwards`,
-                        }}
-                      >
-                        {/* Background layers */}
-                        <div className="absolute inset-0 bg-gradient-to-r from-white/[0.02] to-white/[0.06] group-hover:from-white/[0.08] group-hover:to-white/[0.12] transition-all duration-300" />
-                        <div className="absolute inset-0 bg-gradient-to-r from-amber-500/0 to-yellow-500/0 group-hover:from-amber-500/5 group-hover:to-yellow-500/5 transition-all duration-300" />
+                  <div className="p-6 pb-8">
+                    <div className="space-y-2">
+                      {navItems.map((item, index) => (
+                        <button
+                          key={item.href}
+                          onClick={() => handleLinkClick(item.href)}
+                          className="w-full text-left group relative overflow-hidden rounded-2xl border border-white/5 hover:border-white/20 transition-all duration-300 hover:scale-[1.02]"
+                          style={{
+                            animationDelay: `${index * 50}ms`,
+                            animation: `slideInFromRight 0.5s ease-out forwards`,
+                          }}
+                        >
+                          {/* Background layers */}
+                          <div className="absolute inset-0 bg-gradient-to-r from-white/[0.02] to-white/[0.06] group-hover:from-white/[0.08] group-hover:to-white/[0.12] transition-all duration-300" />
+                          <div className="absolute inset-0 bg-gradient-to-r from-amber-500/0 to-yellow-500/0 group-hover:from-amber-500/5 group-hover:to-yellow-500/5 transition-all duration-300" />
 
-                        <div className="relative p-4 flex items-center justify-between">
-                          <div className="flex items-center space-x-4">
-                            <div className="w-10 h-10 bg-gradient-to-r from-amber-400/20 to-yellow-500/20 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300 border border-amber-400/20">
-                              <item.icon className="h-5 w-5 text-amber-400 group-hover:text-amber-300 transition-colors duration-300" />
+                          <div className="relative p-4 flex items-center justify-between">
+                            <div className="flex items-center space-x-4">
+                              <div className="w-10 h-10 bg-gradient-to-r from-amber-400/20 to-yellow-500/20 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300 border border-amber-400/20">
+                                <item.icon className="h-5 w-5 text-amber-400 group-hover:text-amber-300 transition-colors duration-300" />
+                              </div>
+                              <span className="text-white font-medium text-lg group-hover:text-amber-300 transition-colors duration-300">
+                                {item.label}
+                              </span>
                             </div>
-                            <span className="text-white font-medium text-lg group-hover:text-amber-300 transition-colors duration-300">
-                              {item.label}
-                            </span>
+                            <ChevronRight className="h-5 w-5 text-white/40 group-hover:text-amber-400 group-hover:translate-x-1 transition-all duration-300" />
                           </div>
-                          <ChevronRight className="h-5 w-5 text-white/40 group-hover:text-amber-400 group-hover:translate-x-1 transition-all duration-300" />
-                        </div>
 
-                        {/* Animated underline */}
-                        <div className="absolute bottom-0 left-4 right-4 h-0.5 bg-gradient-to-r from-amber-400 to-yellow-500 scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left rounded-full" />
-                      </button>
-                    ))}
+                          {/* Animated underline */}
+                          <div className="absolute bottom-0 left-4 right-4 h-0.5 bg-gradient-to-r from-amber-400 to-yellow-500 scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left rounded-full" />
+                        </button>
+                      ))}
+                    </div>
 
                     {/* Contact Information */}
                     <div className="pt-6 mt-6 border-t border-white/10">
@@ -267,9 +269,6 @@ export function Header() {
                         <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-700" />
                       </button>
                     </div>
-
-                    {/* Bottom spacing for scroll comfort */}
-                    <div className="h-8" />
                   </div>
                 </div>
               </div>
