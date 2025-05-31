@@ -131,7 +131,8 @@ export function ContactSection() {
                     {
                       icon: MapPin,
                       title: "Dubai Office",
-                      content: "Jumeirah Lakes Towers, Cluster Y, Dubai, UAE",
+                      content:
+                        "IFZA Business Park B2, Silicon Oasis, Dubai, United Arab Emirates",
                     },
                     {
                       icon: Phone,
