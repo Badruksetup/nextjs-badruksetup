@@ -44,14 +44,14 @@ export function HeroSection() {
 
       <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
-          <h1 className="text-5xl md:text-6xl font-bold leading-tight mb-6 text-white animate-in slide-in-from-bottom duration-1000">
+          <h1 className="px-2 md:px-0 text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6 text-white animate-in slide-in-from-bottom duration-1000">
             <span className="bg-gradient-to-r from-amber-400 to-yellow-500 bg-clip-text text-transparent">
               Ihre Firmengründung in Dubai
             </span>
             <br />
             professionell, schnell und steueroptimiert
           </h1>
-          <p className="text-xl text-gray-300 mb-12 max-w-2xl mx-auto animate-in slide-in-from-bottom duration-1000 delay-200">
+          <p className="text-base sm:text-lg md:text-xl text-gray-300 mb-12 max-w-2xl mx-auto animate-in slide-in-from-bottom duration-1000 delay-200">
             Wir begleiten Sie von der Gründung bis zum Visum – persönlich &
             komplett betreut.
           </p>

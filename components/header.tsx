@@ -13,13 +13,14 @@ import {
   X,
   Zap,
 } from "lucide-react";
-import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import BadrukLogo from "./logo";
 
 export function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const [isAnimating, setIsAnimating] = useState(false);
+  const router = useRouter();
 
   const navItems = [
     { href: "/", label: "Start", icon: Home },
@@ -65,20 +66,35 @@ export function Header() {
     };
   }, [isOpen]);
 
-  // Handle link clicks
+  // Handle link clicks with Next.js router
   const handleLinkClick = (href: string) => {
     setIsAnimating(true);
+
     setTimeout(() => {
       setIsOpen(false);
       setIsAnimating(false);
-      // Navigate to the link
+
+      // Handle anchor links (hash links)
       if (href.startsWith("#")) {
         const element = document.querySelector(href);
         if (element) {
           element.scrollIntoView({ behavior: "smooth" });
         }
-      } else {
+      }
+      // Handle external links (tel:, mailto:, http://, https://)
+      else if (href.startsWith("tel:") || href.startsWith("mailto:")) {
         window.location.href = href;
+      } else if (href.startsWith("http://") || href.startsWith("https://")) {
+        window.open(href, "_blank", "noopener,noreferrer");
+      }
+      // Handle internal navigation using Next.js router
+      else {
+        try {
+          router.push(href);
+        } catch (error) {
+          // Fallback to window.location if router fails
+          window.location.href = href;
+        }
       }
     }, 200);
   };
@@ -104,16 +120,16 @@ export function Header() {
                 <ul className="flex space-x-8 relative">
                   {navItems.map((item) => (
                     <li key={item.href} className="relative group">
-                      <a
-                        href={item.href}
-                        className="font-medium text-white hover:text-amber-300 transition-all duration-300 relative inline-block py-1"
+                      <button
+                        onClick={() => handleLinkClick(item.href)}
+                        className="font-medium text-white hover:text-amber-300 transition-all duration-300 relative inline-block py-1 bg-transparent border-none cursor-pointer"
                       >
                         {item.label}
                         {/* Animated underline */}
                         <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-amber-400 to-yellow-500 transition-all duration-300 group-hover:w-full rounded-full" />
                         {/* Glow effect */}
                         <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-amber-400/50 blur-sm transition-all duration-300 group-hover:w-full" />
-                      </a>
+                      </button>
                     </li>
                   ))}
                 </ul>
@@ -143,12 +159,13 @@ export function Header() {
 
             {/* Desktop CTA Button */}
             <div className="hidden lg:block flex-shrink-0">
-              <Button className="bg-gradient-to-r from-amber-500 to-yellow-600 hover:from-amber-600 hover:to-yellow-700 text-slate-900 font-semibold px-8 py-4 rounded-xl transition-all duration-300 hover:shadow-amber-500/30 hover:scale-[1.02] shadow-lg relative overflow-hidden">
-                <Link className="text-white" href="/#contact">
-                  <span className="relative z-10">
-                    Kostenlos beraten lassen
-                  </span>
-                </Link>
+              <Button
+                onClick={() => handleLinkClick("/#contact")}
+                className="bg-gradient-to-r from-amber-500 to-yellow-600 hover:from-amber-600 hover:to-yellow-700 text-slate-900 font-semibold px-8 py-4 rounded-xl transition-all duration-300 hover:shadow-amber-500/30 hover:scale-[1.02] shadow-lg relative overflow-hidden"
+              >
+                <span className="relative z-10 text-white">
+                  Kostenlos beraten lassen
+                </span>
                 {/* Button shine effect */}
                 <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full hover:translate-x-full transition-transform duration-700" />
               </Button>
@@ -254,28 +271,30 @@ export function Header() {
                       </h3>
                       <div className="space-y-2">
                         {contactInfo.map((contact, index) => (
-                          <a
+                          <button
                             key={index}
-                            href={contact.href}
-                            className="flex items-center space-x-3 p-3 rounded-xl bg-white/[0.02] hover:bg-white/[0.08] border border-white/5 hover:border-white/20 transition-all duration-300 group"
+                            onClick={() => handleLinkClick(contact.href)}
+                            className="w-full flex items-center space-x-3 p-3 rounded-xl bg-white/[0.02] hover:bg-white/[0.08] border border-white/5 hover:border-white/20 transition-all duration-300 group text-left"
                           >
                             <contact.icon className="h-4 w-4 text-amber-400 group-hover:scale-110 transition-transform duration-300" />
                             <span className="text-white/80 group-hover:text-white text-sm">
                               {contact.label}
                             </span>
-                          </a>
+                          </button>
                         ))}
                       </div>
                     </div>
 
                     {/* CTA Button */}
                     <div className="pt-6">
-                      <button className="w-full bg-gradient-to-r from-amber-500 to-yellow-600 hover:from-amber-600 hover:to-yellow-700 text-slate-900 font-semibold px-6 py-4 rounded-2xl transition-all duration-300 hover:shadow-amber-500/30 hover:scale-[1.02] shadow-lg relative overflow-hidden group">
-                        <Link className="text-white" href="/#contact">
-                          <span className="relative z-10 text-lg">
-                            Kostenlos beraten lassen
-                          </span>
-                        </Link>
+                      <button
+                        onClick={() => handleLinkClick("/#contact")}
+                        className="w-full bg-gradient-to-r from-amber-500 to-yellow-600 hover:from-amber-600 hover:to-yellow-700 text-slate-900 font-semibold px-6 py-4 rounded-2xl transition-all duration-300 hover:shadow-amber-500/30 hover:scale-[1.02] shadow-lg relative overflow-hidden group"
+                      >
+                        <span className="text-white relative z-10 text-lg">
+                          Kostenlos beraten lassen
+                        </span>
+
                         {/* Button shine effect */}
                         <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-700" />
                       </button>
