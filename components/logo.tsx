@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 interface BadrukLogoProps {
   className?: string;
@@ -15,7 +16,7 @@ const BadrukLogo = ({ className = "", size = "default" }: BadrukLogoProps) => {
   };
 
   return (
-    <div className={`flex items-center ${className}`}>
+    <Link href={"/"} className={`flex items-center ${className}`}>
       <div className="glass-logo rounded-2xl">
         <Image
           src="https://i.ibb.co/0jyPGqQF/Chat-GPT-Image-19-Mai-2025-03-43-25.png"
@@ -26,7 +27,7 @@ const BadrukLogo = ({ className = "", size = "default" }: BadrukLogoProps) => {
           priority
         />
       </div>
-    </div>
+    </Link>
   );
 };
 

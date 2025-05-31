@@ -31,11 +31,13 @@ const PrivacyPolicyPage = () => {
                   </div>
                 </div>
                 <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold bg-gradient-to-r from-white via-purple-100 to-pink-100 bg-clip-text text-transparent mb-6 leading-tight">
-                  Codaiq · Privacy Policy (GDPR/CCPA-Ready)
+                  Badruk Group · Privacy Policy (GDPR/CCPA-Ready)
                 </h1>
                 <div className="inline-block bg-gradient-to-r from-purple-500/20 to-pink-500/20 border border-purple-400/30 rounded-full px-6 py-3 backdrop-blur-sm">
                   <p className="text-purple-200 text-sm sm:text-base font-medium">
-                    <strong>Webdesignoo Ltd. – Effective 26 May 2025</strong>
+                    <strong>
+                      Visionary Brothers FZCO – Effective 26 May 2025
+                    </strong>
                   </p>
                 </div>
               </div>
@@ -56,7 +58,7 @@ const PrivacyPolicyPage = () => {
                     { name: "Data Transfers", id: "transfers" },
                     { name: "Security", id: "security" },
                     { name: "Cookie Policy", id: "cookie-policy" },
-                    { name: "Refund Policy", id: "refund" },
+                    { name: "Service Policy", id: "service" },
                     { name: "Acceptable Use", id: "aup" },
                     { name: "Disclaimer", id: "disclaimer" },
                     { name: "Contact", id: "contact" },
@@ -86,8 +88,10 @@ const PrivacyPolicyPage = () => {
                     </div>
                     <div className="flex-1">
                       <p className="text-blue-200 text-base leading-relaxed">
-                        <strong>Controller:</strong> Webdesignoo Ltd., Hasan
-                        Badruk (see Legal Notice).
+                        <strong>Controller:</strong> Visionary Brothers FZCO,
+                        Hasan Ali Badruk (see Legal Notice). We are a
+                        Dubai-based company formation and business setup
+                        consultancy service provider.
                       </p>
                     </div>
                   </div>
@@ -125,17 +129,17 @@ const PrivacyPolicyPage = () => {
                     <tbody>
                       <tr className="border-b border-white/10">
                         <td className="p-4 text-blue-300 font-semibold">
-                          Account Data
+                          Contact Data
                         </td>
                         <td className="p-4 text-gray-300">
-                          Name, e-mail, password hash
+                          Name, email, phone, business activity
                         </td>
                         <td className="p-4 text-gray-300">
-                          Contract fulfilment
+                          Consultation services
                         </td>
                         <td className="p-4 text-gray-300">Art. 6 (1)(b)</td>
                         <td className="p-4 text-gray-300">
-                          Until deletion + 5 years
+                          Until service completion + 7 years
                         </td>
                       </tr>
                       <tr className="border-b border-white/10">
@@ -143,33 +147,37 @@ const PrivacyPolicyPage = () => {
                           Usage Data
                         </td>
                         <td className="p-4 text-gray-300">
-                          IP, browser, pages, logs
+                          IP, browser, pages visited, form interactions
                         </td>
                         <td className="p-4 text-gray-300">
-                          Security, analytics
+                          Security, analytics, service improvement
                         </td>
                         <td className="p-4 text-gray-300">Art. 6 (1)(f)</td>
                         <td className="p-4 text-gray-300">30 days</td>
                       </tr>
                       <tr className="border-b border-white/10">
                         <td className="p-4 text-yellow-300 font-semibold">
-                          Payment Data
+                          Service Data
                         </td>
                         <td className="p-4 text-gray-300">
-                          Card tokens via Stripe
+                          Company setup preferences, visa requirements
                         </td>
-                        <td className="p-4 text-gray-300">Billing</td>
+                        <td className="p-4 text-gray-300">Service delivery</td>
                         <td className="p-4 text-gray-300">Art. 6 (1)(b)/(c)</td>
-                        <td className="p-4 text-gray-300">10 years (tax)</td>
+                        <td className="p-4 text-gray-300">
+                          7 years (legal requirement)
+                        </td>
                       </tr>
                       <tr>
                         <td className="p-4 text-purple-300 font-semibold">
                           Marketing Data
                         </td>
                         <td className="p-4 text-gray-300">
-                          Opt-in e-mail preferences
+                          Opt-in email preferences, newsletter subscriptions
                         </td>
-                        <td className="p-4 text-gray-300">Newsletters</td>
+                        <td className="p-4 text-gray-300">
+                          Business updates, newsletters
+                        </td>
                         <td className="p-4 text-gray-300">
                           Consent Art. 6 (1)(a)
                         </td>
@@ -194,9 +202,10 @@ const PrivacyPolicyPage = () => {
                     </div>
                     <div className="flex-1">
                       <p className="text-orange-200 text-base leading-relaxed">
-                        We use essential cookies for login/session and optional
-                        analytics cookies (Google Analytics 4) with anonymised
-                        IP. Consent banner provided via Cookiebot.
+                        We use essential cookies for website functionality and
+                        optional analytics cookies (Google Analytics 4) with
+                        anonymised IP. Cookie consent banner is provided for
+                        user preferences.
                       </p>
                     </div>
                   </div>
@@ -218,8 +227,9 @@ const PrivacyPolicyPage = () => {
                     <div className="flex-1">
                       <p className="text-blue-200 text-base leading-relaxed">
                         You have the right to: Access, rectification, deletion,
-                        restriction, data portability, object, and lodge
-                        complaint with a supervisory authority.
+                        restriction, data portability, object to processing, and
+                        lodge complaint with a supervisory authority. Contact us
+                        to exercise these rights.
                       </p>
                     </div>
                   </div>
@@ -240,9 +250,9 @@ const PrivacyPolicyPage = () => {
                     </div>
                     <div className="flex-1">
                       <p className="text-green-200 text-base leading-relaxed">
-                        <strong>Important:</strong> Codaiq does not sell
+                        <strong>Important:</strong> Badruk Group does not sell
                         personal information. California residents can exercise
-                        disclosure or deletion rights via privacy@codaiq.com.
+                        disclosure or deletion rights via info@badruk-group.com.
                       </p>
                     </div>
                   </div>
@@ -263,8 +273,11 @@ const PrivacyPolicyPage = () => {
                     </div>
                     <div className="flex-1">
                       <p className="text-purple-200 text-base leading-relaxed">
-                        Where we transfer data outside the EEA/UK, we rely on
-                        Standard Contractual Clauses or adequacy decisions.
+                        Data may be transferred between UAE, EU/EEA
+                        jurisdictions. Where we transfer data outside the
+                        EEA/UK, we rely on Standard Contractual Clauses or
+                        adequacy decisions in accordance with UAE data
+                        protection regulations.
                       </p>
                     </div>
                   </div>
@@ -285,9 +298,10 @@ const PrivacyPolicyPage = () => {
                     </div>
                     <div className="flex-1">
                       <p className="text-indigo-200 text-base leading-relaxed">
-                        <strong>Security Measures:</strong> ISO-27001 aligned
-                        controls, encryption in transit (TLS 1.3) and at rest
-                        (AES-256), least-privilege access.
+                        <strong>Security Measures:</strong> Industry-standard
+                        security controls, encryption in transit (TLS 1.3) and
+                        at rest (AES-256), secure hosting infrastructure, and
+                        least-privilege access controls.
                       </p>
                     </div>
                   </div>
@@ -312,7 +326,7 @@ const PrivacyPolicyPage = () => {
                       </h3>
                     </div>
                     <p className="text-red-200 text-sm leading-relaxed">
-                      Auth tokens, security cookies.
+                      Session management, security cookies, form functionality.
                     </p>
                   </div>
                   <div className="bg-gradient-to-r from-blue-900/30 to-cyan-900/20 border border-blue-500/30 rounded-2xl p-6 backdrop-blur-sm">
@@ -325,7 +339,7 @@ const PrivacyPolicyPage = () => {
                       </h3>
                     </div>
                     <p className="text-blue-200 text-sm leading-relaxed">
-                      *ga, *gid (Google Analytics).
+                      Google Analytics for website performance analysis.
                     </p>
                   </div>
                   <div className="bg-gradient-to-r from-green-900/30 to-emerald-900/20 border border-green-500/30 rounded-2xl p-6 backdrop-blur-sm">
@@ -338,7 +352,7 @@ const PrivacyPolicyPage = () => {
                       </h3>
                     </div>
                     <p className="text-green-200 text-sm leading-relaxed">
-                      Language preference.
+                      Language preference, user preferences.
                     </p>
                   </div>
                   <div className="bg-gradient-to-r from-gray-800/50 to-slate-800/30 border border-gray-500/30 rounded-2xl p-6 backdrop-blur-sm">
@@ -363,12 +377,12 @@ const PrivacyPolicyPage = () => {
                 </div>
               </section>
 
-              <section id="refund">
+              <section id="service">
                 <h2 className="text-xl sm:text-2xl lg:text-3xl font-semibold bg-gradient-to-r from-white to-cyan-200 bg-clip-text text-transparent mt-8 sm:mt-12 mb-6 flex items-center gap-3">
                   <span className="w-10 h-10 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-2xl flex items-center justify-center text-base font-bold text-white shadow-lg">
                     9
                   </span>
-                  Refund & Cancellation Policy
+                  Service & Consultation Policy
                 </h2>
                 <div className="space-y-6 mb-8">
                   <div className="bg-gradient-to-r from-slate-800/30 to-cyan-800/20 border border-cyan-400/30 rounded-2xl p-6 backdrop-blur-sm">
@@ -377,53 +391,56 @@ const PrivacyPolicyPage = () => {
                         🆓
                       </span>
                       <h3 className="text-lg font-semibold bg-gradient-to-r from-cyan-200 to-blue-200 bg-clip-text text-transparent">
-                        Trial Period
+                        Free Consultation
                       </h3>
                     </div>
                     <p className="text-cyan-200 text-base leading-relaxed">
-                      7-day free trial; cancel before day 7 to avoid charges.
+                      Initial consultation is free of charge; detailed service
+                      agreements provided before any paid services.
                     </p>
                   </div>
                   <div className="bg-gradient-to-r from-slate-800/30 to-blue-800/20 border border-blue-400/30 rounded-2xl p-6 backdrop-blur-sm">
                     <div className="flex items-center gap-3 mb-3">
                       <span className="w-8 h-8 bg-gradient-to-r from-blue-500/20 to-indigo-500/20 rounded-lg flex items-center justify-center text-blue-300 text-lg backdrop-blur-sm">
-                        📅
+                        📋
                       </span>
                       <h3 className="text-lg font-semibold bg-gradient-to-r from-blue-200 to-indigo-200 bg-clip-text text-transparent">
-                        Monthly Plans
+                        Service Delivery
                       </h3>
                     </div>
                     <p className="text-blue-200 text-base leading-relaxed">
-                      Prorated refund for unused full months after cancellation.
+                      All services are delivered according to agreed timelines;
+                      progress updates provided throughout the process.
                     </p>
                   </div>
                   <div className="bg-gradient-to-r from-slate-800/30 to-purple-800/20 border border-purple-400/30 rounded-2xl p-6 backdrop-blur-sm">
                     <div className="flex items-center gap-3 mb-3">
                       <span className="w-8 h-8 bg-gradient-to-r from-purple-500/20 to-pink-500/20 rounded-lg flex items-center justify-center text-purple-300 text-lg backdrop-blur-sm">
-                        📆
+                        💼
                       </span>
                       <h3 className="text-lg font-semibold bg-gradient-to-r from-purple-200 to-pink-200 bg-clip-text text-transparent">
-                        Annual Plans
+                        Professional Standards
                       </h3>
                     </div>
                     <p className="text-purple-200 text-base leading-relaxed">
-                      Full refund within 14 days of first payment; thereafter no
-                      refund but subscription continues until term end.
+                      All company formation services comply with UAE Free Zone
+                      Authority regulations and international business
+                      standards.
                     </p>
                   </div>
                   <div className="bg-gradient-to-r from-slate-800/30 to-green-800/20 border border-green-400/30 rounded-2xl p-6 backdrop-blur-sm">
                     <div className="flex items-center gap-3 mb-3">
                       <span className="w-8 h-8 bg-gradient-to-r from-green-500/20 to-emerald-500/20 rounded-lg flex items-center justify-center text-green-300 text-lg backdrop-blur-sm">
-                        💳
+                        📞
                       </span>
                       <h3 className="text-lg font-semibold bg-gradient-to-r from-green-200 to-emerald-200 bg-clip-text text-transparent">
-                        Process
+                        Support Process
                       </h3>
                     </div>
                     <p className="text-green-200 text-base leading-relaxed">
-                      E-mail billing@codaiq.com from your account address;
-                      refunds are credited to the original payment method within
-                      10 business days.
+                      Contact info@badruk-group.com for service inquiries;
+                      dedicated support provided throughout the business setup
+                      process.
                     </p>
                   </div>
                 </div>
@@ -442,15 +459,15 @@ const PrivacyPolicyPage = () => {
                       🚫
                     </span>
                     <h3 className="text-xl font-semibold bg-gradient-to-r from-red-200 to-pink-200 bg-clip-text text-transparent">
-                      You must not use Codaiq to host or transmit:
+                      You must not use our services for:
                     </h3>
                   </div>
                   <ul className="text-red-100 space-y-3 text-base">
                     {[
-                      "Illegal content or intellectual-property-infringing material.",
-                      "Hate speech, threats, or harassment.",
-                      "Personal data without lawful basis.",
-                      "High-risk or regulated data (e.g., HIPAA, PCI-DSS) unless we explicitly agree in writing.",
+                      "Illegal business activities or intellectual-property-infringing operations.",
+                      "Money laundering, terrorist financing, or sanctioned activities.",
+                      "Providing false information during company formation processes.",
+                      "High-risk regulated activities without proper disclosure and licensing.",
                     ].map((item, index) => (
                       <li
                         key={index}
@@ -463,8 +480,8 @@ const PrivacyPolicyPage = () => {
                   </ul>
                   <div className="mt-6 pt-4 border-t border-red-400/20">
                     <p className="text-red-200 font-semibold text-base text-center">
-                      Violations may result in suspension or deletion without
-                      notice.
+                      Violations may result in service termination and reporting
+                      to relevant authorities.
                     </p>
                   </div>
                 </div>
@@ -484,11 +501,13 @@ const PrivacyPolicyPage = () => {
                     </div>
                     <div className="flex-1">
                       <p className="text-amber-200 text-base leading-relaxed">
-                        All information on codaiq.com is provided for general
-                        information only and should not be construed as
+                        All information on our website is provided for general
+                        information only and should not be construed as legal or
                         professional advice. While we endeavour to keep content
-                        up to date, we make no warranties regarding accuracy,
-                        completeness or reliability.
+                        up to date and provide accurate business setup guidance,
+                        we make no warranties regarding accuracy, completeness
+                        or reliability. Clients should verify all regulatory
+                        requirements independently.
                       </p>
                     </div>
                   </div>
@@ -507,11 +526,15 @@ const PrivacyPolicyPage = () => {
                       For questions about this privacy policy, contact us at:
                     </p>
                     <a
-                      href="mailto:privacy@codaiq.com"
+                      href="mailto:info@badruk-group.com"
                       className="inline-flex items-center gap-2 text-purple-300 hover:text-purple-100 underline font-mono bg-purple-500/10 px-4 py-2 rounded-lg transition-colors text-lg"
                     >
-                      📧 privacy@codaiq.com
+                      📧 info@badruk-group.com
                     </a>
+                    <div className="mt-4 text-gray-400 text-sm">
+                      <p>Visionary Brothers FZCO</p>
+                      <p>IFZA Business Park B2, Silicon Oasis, Dubai, UAE</p>
+                    </div>
                   </div>
                 </div>
               </section>

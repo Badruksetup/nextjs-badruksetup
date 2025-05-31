@@ -38,7 +38,8 @@ const AUPPolicyPage = () => {
                 <div className="inline-block bg-gradient-to-r from-red-500/20 to-orange-500/20 border border-red-400/30 rounded-full px-6 py-3 backdrop-blur-sm">
                   <p className="text-red-200 text-sm sm:text-base font-medium">
                     <strong>
-                      Codaiq – Webdesignoo Ltd. · Effective 26 May 2025
+                      Badruk Group – Visionary Brothers FZCO · Effective 26 May
+                      2025
                     </strong>
                   </p>
                 </div>
@@ -56,8 +57,8 @@ const AUPPolicyPage = () => {
                     { name: "General Principles", id: "principles" },
                     { name: "Prohibited Content", id: "content" },
                     { name: "Prohibited Activities", id: "activities" },
-                    { name: "Resource Limits", id: "limits" },
-                    { name: "Security Reporting", id: "security" },
+                    { name: "Service Limits", id: "limits" },
+                    { name: "Compliance Reporting", id: "security" },
                     { name: "Enforcement", id: "enforcement" },
                     { name: "Contact", id: "contact" },
                   ].map((item, index) => (
@@ -87,13 +88,13 @@ const AUPPolicyPage = () => {
                     <div className="flex-1">
                       <p className="text-blue-200 text-base leading-relaxed">
                         This Acceptable Use Policy ("Policy") applies to every
-                        visitor, registered user and customer ("you") of the
-                        Codaiq website, builder, APIs, and any other service
-                        operated by Webdesignoo Ltd. ("Codaiq", "we", "us"). It
-                        forms part of the Terms of Service. By accessing or
-                        using the Service you agree to comply with this Policy;
-                        if you violate it, we may suspend or terminate your
-                        account without notice.
+                        visitor, client and customer ("you") of the Badruk Group
+                        website, consultation services, and any other service
+                        operated by Visionary Brothers FZCO ("Badruk Group",
+                        "we", "us"). It forms part of the Terms of Service. By
+                        accessing or using our services you agree to comply with
+                        this Policy; if you violate it, we may suspend or
+                        terminate your services without notice.
                       </p>
                     </div>
                   </div>
@@ -116,8 +117,8 @@ const AUPPolicyPage = () => {
                       Lawful Use
                     </h3>
                     <p className="text-green-200 text-sm leading-relaxed">
-                      Use Codaiq only for lawful, ethical and bona-fide
-                      web-development activities.
+                      Use Badruk Group services only for lawful, ethical and
+                      legitimate business formation activities.
                     </p>
                   </div>
                   <div className="bg-gradient-to-r from-blue-900/30 to-cyan-900/20 border border-blue-500/30 rounded-2xl p-6 text-center backdrop-blur-sm">
@@ -128,7 +129,8 @@ const AUPPolicyPage = () => {
                       Respect Others
                     </h3>
                     <p className="text-blue-200 text-sm leading-relaxed">
-                      Respect the rights, privacy and security of others.
+                      Respect the rights, privacy and security of others and
+                      regulatory authorities.
                     </p>
                   </div>
                   <div className="bg-gradient-to-r from-purple-900/30 to-pink-900/20 border border-purple-500/30 rounded-2xl p-6 text-center backdrop-blur-sm">
@@ -136,11 +138,11 @@ const AUPPolicyPage = () => {
                       <span className="text-purple-300 text-xl">🛡️</span>
                     </div>
                     <h3 className="text-lg font-semibold bg-gradient-to-r from-purple-200 to-pink-200 bg-clip-text text-transparent mb-3">
-                      Platform Integrity
+                      Service Integrity
                     </h3>
                     <p className="text-purple-200 text-sm leading-relaxed">
-                      Do not interfere with, disrupt or degrade the Service or
-                      its underlying infrastructure.
+                      Do not interfere with, disrupt or misuse our consultation
+                      services or business formation processes.
                     </p>
                   </div>
                 </div>
@@ -151,7 +153,7 @@ const AUPPolicyPage = () => {
                   <span className="w-10 h-10 bg-gradient-to-r from-red-500 to-pink-500 rounded-2xl flex items-center justify-center text-base font-bold text-white shadow-lg">
                     3
                   </span>
-                  Prohibited Content
+                  Prohibited Content and Information
                 </h2>
                 <div className="bg-gradient-to-r from-red-900/30 to-pink-900/20 border border-red-500/30 rounded-2xl p-6 mb-8 backdrop-blur-sm">
                   <div className="flex items-center gap-3 mb-6">
@@ -159,18 +161,18 @@ const AUPPolicyPage = () => {
                       🚫
                     </span>
                     <h3 className="text-xl font-semibold bg-gradient-to-r from-red-200 to-pink-200 bg-clip-text text-transparent">
-                      You must not upload, publish, host or link to content
-                      that:
+                      You must not provide, submit, or use our services for
+                      content that:
                     </h3>
                   </div>
                   <ol className="text-red-100 space-y-4 text-base">
                     {[
                       "infringes copyrights, trademarks, trade secrets or other intellectual-property rights;",
-                      "is obscene, sexually explicit (including CSEM), hateful, violent, harassing or defamatory;",
-                      "promotes terrorism, extremism, self-harm or illegal activities;",
-                      "contains unauthorised personal data or violates privacy laws (GDPR, CCPA, etc.);",
-                      "violates export controls or economic-sanctions regulations;",
-                      "constitutes gambling services, unlicensed financial products, or medical advice without proper authorisation.",
+                      "involves money laundering, terrorist financing, or violations of international sanctions;",
+                      "promotes illegal activities, fraud, or criminal enterprises;",
+                      "contains false or misleading information for business registration purposes;",
+                      "violates export controls, economic-sanctions regulations, or UAE business laws;",
+                      "constitutes unlicensed financial services, illegal gambling, or prohibited business activities under UAE regulations.",
                     ].map((item, index) => (
                       <li
                         key={index}
@@ -204,14 +206,14 @@ const AUPPolicyPage = () => {
                   </div>
                   <ul className="text-orange-100 space-y-3 text-base">
                     {[
-                      "send spam, bulk unsolicited messages or phishing content;",
-                      "distribute malware, ransomware, spyware, keyloggers or exploits;",
-                      'attempt to gain unauthorised access to any system or data ("hacking", "scraping" beyond robots.txt, brute-force, scanning);',
-                      "reverse-engineer, decompile, circumvent security or usage limits;",
-                      "abuse shared resources (for example, sustained CPU or bandwidth that risks platform stability);",
-                      "use the Service for cryptocurrency mining or high-risk compute without prior written consent;",
-                      "impersonate another person or entity, or misrepresent affiliation;",
-                      "use the Service in breach of applicable law, including export, sanctions, consumer-protection and data-protection statutes.",
+                      "provide false, misleading, or fraudulent information during the business setup process;",
+                      "use our services to establish companies for illegal activities or regulatory non-compliance;",
+                      "attempt to circumvent UAE business formation requirements or regulatory procedures;",
+                      "misrepresent your identity, business activities, or intended use of the company;",
+                      "abuse our consultation services for competitor intelligence or industrial espionage;",
+                      "use our services for high-risk regulated activities without proper disclosure and licensing;",
+                      "impersonate another person or entity, or misrepresent business relationships;",
+                      "use our services in breach of applicable UAE, international, sanctions, or data-protection laws.",
                     ].map((item, index) => (
                       <li
                         key={index}
@@ -232,7 +234,7 @@ const AUPPolicyPage = () => {
                   <span className="w-10 h-10 bg-gradient-to-r from-yellow-500 to-orange-500 rounded-2xl flex items-center justify-center text-base font-bold text-white shadow-lg">
                     5
                   </span>
-                  Resource Limits
+                  Service Limits and Fair Use
                 </h2>
                 <div className="bg-gradient-to-r from-yellow-900/30 to-orange-900/20 border border-yellow-500/30 rounded-2xl p-6 mb-8 backdrop-blur-sm">
                   <div className="flex items-start gap-4">
@@ -241,15 +243,16 @@ const AUPPolicyPage = () => {
                     </div>
                     <div className="flex-1">
                       <p className="text-yellow-200 text-base leading-relaxed">
-                        Free-tier and trial accounts are subject to fair-use
-                        thresholds published in the docs. Excessive consumption
-                        may be throttled or billed. If you need higher limits,
-                        contact
+                        Free consultations are subject to reasonable use limits.
+                        Excessive requests for information or repeated
+                        consultation sessions may be subject to service charges.
+                        If you need extensive consultation or expedited
+                        services, contact
                         <a
-                          href="mailto:sales@codaiq.com"
+                          href="mailto:info@badruk-group.com"
                           className="text-yellow-300 hover:text-yellow-100 ml-1 underline bg-yellow-500/10 px-2 py-0.5 rounded transition-colors"
                         >
-                          sales@codaiq.com
+                          info@badruk-group.com
                         </a>
                         .
                       </p>
@@ -263,7 +266,7 @@ const AUPPolicyPage = () => {
                   <span className="w-10 h-10 bg-gradient-to-r from-green-500 to-emerald-500 rounded-2xl flex items-center justify-center text-base font-bold text-white shadow-lg">
                     6
                   </span>
-                  Security Vulnerability Reporting
+                  Compliance and Issue Reporting
                 </h2>
                 <div className="bg-gradient-to-r from-green-900/30 to-emerald-900/20 border border-green-500/30 rounded-2xl p-6 mb-8 backdrop-blur-sm">
                   <div className="flex items-start gap-4">
@@ -272,16 +275,17 @@ const AUPPolicyPage = () => {
                     </div>
                     <div className="flex-1">
                       <p className="text-green-200 text-base leading-relaxed">
-                        If you discover a vulnerability, notify us promptly at
+                        If you discover any compliance issues, regulatory
+                        concerns, or security vulnerabilities, notify us
+                        promptly at
                         <a
-                          href="mailto:security@codaiq.com"
+                          href="mailto:info@badruk-group.com"
                           className="text-green-300 hover:text-green-100 ml-1 underline bg-green-500/10 px-2 py-0.5 rounded transition-colors"
                         >
-                          security@codaiq.com
+                          info@badruk-group.com
                         </a>
-                        and do not publicly disclose it until we have confirmed
-                        a fix. We will not pursue legal action for good-faith,
-                        compliant research.
+                        . We maintain strict compliance with UAE regulations and
+                        international business standards.
                       </p>
                     </div>
                   </div>
@@ -306,7 +310,8 @@ const AUPPolicyPage = () => {
                       </h3>
                     </div>
                     <p className="text-gray-300 text-base leading-relaxed">
-                      We review reports and automated signals to detect abuse.
+                      We review client information and maintain compliance
+                      monitoring to detect potential regulatory violations.
                     </p>
                   </div>
                   <div className="bg-gradient-to-r from-slate-800/30 to-blue-800/20 border border-blue-400/30 rounded-2xl p-6 backdrop-blur-sm">
@@ -321,7 +326,7 @@ const AUPPolicyPage = () => {
                     <p className="text-gray-300 text-base leading-relaxed">
                       On first violation we may issue a warning or request
                       immediate remediation. Serious or repeated breaches can
-                      result in suspension or permanent termination.
+                      result in service suspension or permanent termination.
                     </p>
                   </div>
                   <div className="bg-gradient-to-r from-slate-800/30 to-red-800/20 border border-red-400/30 rounded-2xl p-6 backdrop-blur-sm">
@@ -330,13 +335,13 @@ const AUPPolicyPage = () => {
                         🗑️
                       </span>
                       <h3 className="text-lg font-semibold bg-gradient-to-r from-red-200 to-pink-200 bg-clip-text text-transparent">
-                        Content Removal
+                        Service Termination
                       </h3>
                     </div>
                     <p className="text-gray-300 text-base leading-relaxed">
-                      We reserve the right to remove any content that, in our
-                      sole judgment, violates this Policy or presents risk to
-                      Codaiq, other users or third parties.
+                      We reserve the right to discontinue services for any
+                      business formation that, in our sole judgment, violates
+                      this Policy or presents risk to regulatory compliance.
                     </p>
                   </div>
                   <div className="bg-gradient-to-r from-slate-800/30 to-amber-800/20 border border-amber-400/30 rounded-2xl p-6 backdrop-blur-sm">
@@ -345,12 +350,13 @@ const AUPPolicyPage = () => {
                         ⚖️
                       </span>
                       <h3 className="text-lg font-semibold bg-gradient-to-r from-amber-200 to-orange-200 bg-clip-text text-transparent">
-                        Legal Reporting
+                        Regulatory Reporting
                       </h3>
                     </div>
                     <p className="text-gray-300 text-base leading-relaxed">
-                      Where required by law, we will report illegal conduct to
-                      competent authorities.
+                      Where required by UAE law or international regulations, we
+                      will report suspicious activities to competent
+                      authorities.
                     </p>
                   </div>
                 </div>
@@ -361,20 +367,21 @@ const AUPPolicyPage = () => {
                 <div className="bg-gradient-to-r from-purple-900/30 to-pink-900/20 border border-purple-500/30 rounded-2xl p-6 backdrop-blur-sm">
                   <h3 className="text-xl font-semibold bg-gradient-to-r from-white to-purple-200 bg-clip-text text-transparent mb-4 flex items-center gap-2">
                     <span className="text-purple-400">©️</span>
-                    Copyright Complaints
+                    Intellectual Property Concerns
                   </h3>
                   <p className="text-purple-200 text-base leading-relaxed">
-                    We operate a DMCA-style notice-and-takedown process. Send
-                    infringement notices to
+                    We maintain strict intellectual property compliance
+                    procedures. If you have concerns about IP infringement or
+                    trademark issues during business formation, contact us
+                    immediately at
                     <a
-                      href="mailto:abuse@codaiq.com"
+                      href="mailto:info@badruk-group.com"
                       className="text-purple-300 hover:text-purple-100 ml-1 underline bg-purple-500/10 px-2 py-0.5 rounded transition-colors"
                     >
-                      abuse@codaiq.com
+                      info@badruk-group.com
                     </a>
-                    with complete claim details (see DMCA Policy). We may
-                    disable or delete allegedly infringing material and, for
-                    repeat infringers, terminate accounts.
+                    . We will investigate and take appropriate action to ensure
+                    compliance with UAE intellectual property laws.
                   </p>
                 </div>
 
@@ -384,9 +391,10 @@ const AUPPolicyPage = () => {
                     Changes to This Policy
                   </h3>
                   <p className="text-gray-200 text-base leading-relaxed">
-                    We update this Policy as needed. The revision date appears
-                    at the top. Continued use after a change becomes effective
-                    constitutes acceptance.
+                    We update this Policy as needed to reflect regulatory
+                    changes and business requirements. The revision date appears
+                    at the top. Continued use of our services after a change
+                    becomes effective constitutes acceptance.
                   </p>
                 </div>
               </div>
@@ -395,7 +403,7 @@ const AUPPolicyPage = () => {
               <section id="contact">
                 <h2 className="text-xl sm:text-2xl lg:text-3xl font-semibold bg-gradient-to-r from-white to-blue-200 bg-clip-text text-transparent mt-8 sm:mt-12 mb-6 flex items-center gap-3">
                   <span className="w-10 h-10 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-2xl flex items-center justify-center text-base font-bold text-white shadow-lg">
-                    10
+                    8
                   </span>
                   Contact
                 </h2>
@@ -410,10 +418,10 @@ const AUPPolicyPage = () => {
                       </h3>
                     </div>
                     <a
-                      href="mailto:support@codaiq.com"
+                      href="mailto:info@badruk-group.com"
                       className="inline-flex items-center gap-2 text-blue-300 hover:text-blue-200 underline font-mono bg-blue-500/10 px-3 py-1 rounded-lg transition-colors"
                     >
-                      📧 support@codaiq.com
+                      📧 info@badruk-group.com
                     </a>
                   </div>
                   <div className="bg-gradient-to-r from-slate-800/30 to-purple-800/20 border border-purple-400/30 rounded-2xl p-6 backdrop-blur-sm">
@@ -426,8 +434,8 @@ const AUPPolicyPage = () => {
                       </h3>
                     </div>
                     <p className="text-purple-100 text-sm leading-relaxed">
-                      Webdesignoo Ltd., 71-75 Shelton Street, Covent Garden,
-                      London WC2H 9JQ, United Kingdom
+                      Visionary Brothers FZCO, IFZA Business Park B2, Silicon
+                      Oasis, Dubai, United Arab Emirates
                     </p>
                   </div>
                 </div>
@@ -445,10 +453,10 @@ const AUPPolicyPage = () => {
                       <span className="text-green-300 text-xl">🔐</span>
                     </div>
                     <p className="text-red-200 font-semibold text-base mb-2">
-                      Security Issues
+                      Compliance Issues
                     </p>
                     <p className="text-gray-300 text-sm font-mono bg-green-500/10 px-2 py-1 rounded">
-                      security@codaiq.com
+                      info@badruk-group.com
                     </p>
                   </div>
                   <div className="bg-black/20 rounded-2xl p-4 backdrop-blur-sm border border-white/10">
@@ -456,10 +464,10 @@ const AUPPolicyPage = () => {
                       <span className="text-purple-300 text-xl">©️</span>
                     </div>
                     <p className="text-red-200 font-semibold text-base mb-2">
-                      Copyright Claims
+                      IP Concerns
                     </p>
                     <p className="text-gray-300 text-sm font-mono bg-purple-500/10 px-2 py-1 rounded">
-                      abuse@codaiq.com
+                      info@badruk-group.com
                     </p>
                   </div>
                   <div className="bg-black/20 rounded-2xl p-4 backdrop-blur-sm border border-white/10">
@@ -467,10 +475,10 @@ const AUPPolicyPage = () => {
                       <span className="text-blue-300 text-xl">📊</span>
                     </div>
                     <p className="text-red-200 font-semibold text-base mb-2">
-                      Resource Limits
+                      Service Limits
                     </p>
                     <p className="text-gray-300 text-sm font-mono bg-blue-500/10 px-2 py-1 rounded">
-                      sales@codaiq.com
+                      info@badruk-group.com
                     </p>
                   </div>
                 </div>
@@ -489,8 +497,9 @@ const AUPPolicyPage = () => {
                     <p className="text-amber-200 text-sm leading-relaxed">
                       <strong>Disclaimer:</strong> This document is provided for
                       information only and does not constitute legal advice.
-                      Consult counsel to adapt it to your jurisdiction and
-                      business model.
+                      Business formation services are subject to UAE regulations
+                      and international compliance requirements. Consult
+                      qualified legal counsel for specific regulatory matters.
                     </p>
                   </div>
                 </div>

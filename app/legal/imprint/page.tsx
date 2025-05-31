@@ -31,11 +31,13 @@ const LegalNoticePage = () => {
                   </div>
                 </div>
                 <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold bg-gradient-to-r from-white via-blue-100 to-cyan-100 bg-clip-text text-transparent mb-6 leading-tight">
-                  Codaiq · Legal Notice (Imprint)
+                  Badruk Group · Legal Notice (Imprint)
                 </h1>
                 <div className="inline-block bg-gradient-to-r from-blue-500/20 to-cyan-500/20 border border-blue-400/30 rounded-full px-6 py-3 backdrop-blur-sm">
                   <p className="text-blue-200 text-sm sm:text-base font-medium">
-                    <strong>Webdesignoo Ltd. – Effective 26 May 2025</strong>
+                    <strong>
+                      Visionary Brothers FZCO – Effective 26 May 2025
+                    </strong>
                   </p>
                 </div>
               </div>
@@ -83,10 +85,10 @@ const LegalNoticePage = () => {
                     <div className="flex-1">
                       <p className="text-blue-200 text-base leading-relaxed">
                         <strong className="text-blue-100">
-                          Webdesignoo Ltd.
+                          Visionary Brothers FZCO
                         </strong>{" "}
-                        - a private company limited by shares, registered in
-                        England & Wales.
+                        - a free zone company registered in Dubai, United Arab
+                        Emirates.
                       </p>
                     </div>
                   </div>
@@ -98,7 +100,7 @@ const LegalNoticePage = () => {
                   <span className="w-10 h-10 bg-gradient-to-r from-green-500 to-emerald-500 rounded-2xl flex items-center justify-center text-base font-bold text-white shadow-lg">
                     2
                   </span>
-                  Registered Office (Correspondence Address)
+                  Registered Office Address
                 </h2>
                 <div className="bg-gradient-to-r from-green-900/30 to-emerald-900/20 border border-green-400/30 rounded-2xl p-6 mb-8 backdrop-blur-sm">
                   <div className="flex items-start gap-4">
@@ -107,11 +109,11 @@ const LegalNoticePage = () => {
                     </div>
                     <div className="flex-1">
                       <div className="text-green-200 text-base leading-relaxed space-y-1">
-                        <p>71-75 Shelton Street</p>
-                        <p>Covent Garden</p>
-                        <p>London WC2H 9JQ</p>
+                        <p>IFZA Business Park B2</p>
+                        <p>Silicon Oasis</p>
+                        <p>Dubai</p>
                         <p className="font-semibold text-green-100 mt-2">
-                          United Kingdom
+                          United Arab Emirates
                         </p>
                       </div>
                     </div>
@@ -124,7 +126,7 @@ const LegalNoticePage = () => {
                   <span className="w-10 h-10 bg-gradient-to-r from-purple-500 to-pink-500 rounded-2xl flex items-center justify-center text-base font-bold text-white shadow-lg">
                     3
                   </span>
-                  Company Number
+                  Company Registration
                 </h2>
                 <div className="bg-gradient-to-r from-purple-900/30 to-pink-900/20 border border-purple-400/30 rounded-2xl p-6 mb-8 backdrop-blur-sm">
                   <div className="flex items-start gap-4">
@@ -133,10 +135,11 @@ const LegalNoticePage = () => {
                     </div>
                     <div className="flex-1">
                       <p className="text-purple-200 text-base leading-relaxed">
+                        Registered with{" "}
                         <span className="font-semibold text-purple-100 bg-purple-500/10 px-2 py-1 rounded">
-                          148 818 01
+                          IFZA Free Zone Authority
                         </span>{" "}
-                        – Companies House, Cardiff
+                        – Dubai, UAE
                       </p>
                     </div>
                   </div>
@@ -158,7 +161,7 @@ const LegalNoticePage = () => {
                     <div className="flex-1">
                       <p className="text-orange-200 text-base leading-relaxed">
                         <span className="font-semibold text-orange-100 bg-orange-500/10 px-2 py-1 rounded">
-                          Hasan Badruk
+                          Hasan Ali Badruk
                         </span>
                       </p>
                     </div>
@@ -182,10 +185,10 @@ const LegalNoticePage = () => {
                       <p className="text-cyan-200 text-base leading-relaxed">
                         <strong>E-mail:</strong>
                         <a
-                          href="mailto:support@codaiq.com"
+                          href="mailto:info@badruk-group.com"
                           className="text-cyan-300 hover:text-cyan-100 ml-2 underline bg-cyan-500/10 px-2 py-1 rounded transition-colors"
                         >
-                          support@codaiq.com
+                          info@badruk-group.com
                         </a>
                       </p>
                     </div>
@@ -207,7 +210,7 @@ const LegalNoticePage = () => {
                     </div>
                     <div className="flex-1">
                       <p className="text-indigo-200 text-base leading-relaxed">
-                        <strong>Section 55 RStV / § 18 (2) MStV:</strong> Hasan
+                        <strong>Content Responsibility:</strong> Hasan Ali
                         Badruk – address as above.
                       </p>
                     </div>
@@ -230,7 +233,7 @@ const LegalNoticePage = () => {
                     <div className="flex-1">
                       <p className="text-amber-200 text-base leading-relaxed">
                         Although we carefully prepare and update all information
-                        on codaiq.com, we cannot guarantee completeness or
+                        on our website, we cannot guarantee completeness or
                         accuracy. Pursuant to applicable law we are responsible
                         only for our own content; we are under no obligation to
                         monitor third-party information transmitted or stored on
@@ -276,7 +279,7 @@ const LegalNoticePage = () => {
                   <span className="w-10 h-10 bg-gradient-to-r from-rose-500 to-red-500 rounded-2xl flex items-center justify-center text-base font-bold text-white shadow-lg">
                     9
                   </span>
-                  Online Dispute Resolution
+                  Dispute Resolution
                 </h2>
                 <div className="bg-gradient-to-r from-rose-900/30 to-red-900/20 border border-rose-500/30 rounded-2xl p-6 mb-12 backdrop-blur-sm">
                   <div className="flex items-start gap-4">
@@ -285,19 +288,12 @@ const LegalNoticePage = () => {
                     </div>
                     <div className="flex-1">
                       <p className="text-rose-200 text-base leading-relaxed">
-                        The European Commission offers a platform for online
-                        dispute resolution (ODR):
-                        <a
-                          href="https://ec.europa.eu/consumers/odr/"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="text-rose-300 hover:text-rose-100 ml-1 underline bg-rose-500/10 px-2 py-1 rounded transition-colors"
-                        >
-                          https://ec.europa.eu/consumers/odr/
-                        </a>
-                        . We are neither obliged nor willing to participate in
-                        dispute-resolution proceedings before a consumer
-                        arbitration board.
+                        Any disputes arising from or related to this website
+                        shall be governed by the laws of the United Arab
+                        Emirates. We strive to resolve any issues amicably
+                        through direct communication. For formal dispute
+                        resolution, matters will be handled according to UAE
+                        jurisdiction and applicable free zone regulations.
                       </p>
                     </div>
                   </div>
@@ -318,9 +314,11 @@ const LegalNoticePage = () => {
                     <h3 className="text-white font-semibold text-base mb-2">
                       Company
                     </h3>
-                    <p className="text-gray-300 text-sm">Webdesignoo Ltd.</p>
+                    <p className="text-gray-300 text-sm">
+                      Visionary Brothers FZCO
+                    </p>
                     <p className="text-gray-400 text-xs">
-                      Registered in England & Wales
+                      Registered in Dubai, UAE
                     </p>
                   </div>
                   <div className="bg-black/20 rounded-2xl p-4 backdrop-blur-sm border border-white/10">
@@ -330,9 +328,9 @@ const LegalNoticePage = () => {
                     <h3 className="text-white font-semibold text-base mb-2">
                       Registration
                     </h3>
-                    <p className="text-gray-300 text-sm">148 818 01</p>
+                    <p className="text-gray-300 text-sm">IFZA Free Zone</p>
                     <p className="text-gray-400 text-xs">
-                      Companies House, Cardiff
+                      Dubai Free Zone Authority
                     </p>
                   </div>
                   <div className="bg-black/20 rounded-2xl p-4 backdrop-blur-sm border border-white/10">
@@ -342,7 +340,7 @@ const LegalNoticePage = () => {
                     <h3 className="text-white font-semibold text-base mb-2">
                       Director
                     </h3>
-                    <p className="text-gray-300 text-sm">Hasan Badruk</p>
+                    <p className="text-gray-300 text-sm">Hasan Ali Badruk</p>
                     <p className="text-gray-400 text-xs">Managing Director</p>
                   </div>
                 </div>
@@ -359,8 +357,8 @@ const LegalNoticePage = () => {
                   </h3>
                 </div>
                 <p className="text-green-200 text-sm text-center leading-relaxed">
-                  This legal notice complies with German § 5 TMG and § 55 RStV
-                  requirements
+                  This legal notice complies with UAE Free Zone regulations and
+                  international disclosure requirements
                 </p>
               </div>
             </div>

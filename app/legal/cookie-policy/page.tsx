@@ -36,7 +36,8 @@ const CookieGDPRPolicyPage = () => {
                 <div className="inline-block bg-gradient-to-r from-blue-500/20 to-cyan-500/20 border border-blue-400/30 rounded-full px-6 py-3 backdrop-blur-sm">
                   <p className="text-blue-200 text-sm sm:text-base font-medium">
                     <strong>
-                      Codaiq – Webdesignoo Ltd. · Last updated 26 May 2025
+                      Badruk Group – Visionary Brothers FZCO · Last updated 26
+                      May 2025
                     </strong>
                   </p>
                 </div>
@@ -79,12 +80,12 @@ const CookieGDPRPolicyPage = () => {
                 </h2>
                 <div className="bg-gradient-to-r from-slate-800/30 to-blue-800/20 border border-blue-400/30 rounded-2xl p-6 mb-8 backdrop-blur-sm">
                   <p className="text-gray-200 text-sm sm:text-base leading-relaxed">
-                    This page explains how Codaiq (Webdesignoo Ltd., "we", "us")
-                    uses cookies and comparable tracking technologies on
-                    codaiq.com and inside the Codaiq web-builder. It also
-                    describes the choices and rights you have under the EU/UK
-                    GDPR, the e-Privacy rules, the California CPRA and similar
-                    laws.
+                    This page explains how Badruk Group (Visionary Brothers
+                    FZCO, "we", "us") uses cookies and comparable tracking
+                    technologies on our website and business consultation
+                    platform. It also describes the choices and rights you have
+                    under the EU/UK GDPR, the e-Privacy rules, the California
+                    CPRA and similar laws.
                   </p>
                 </div>
               </section>
@@ -131,8 +132,9 @@ const CookieGDPRPolicyPage = () => {
                       </h3>
                     </div>
                     <p className="text-red-200 text-base leading-relaxed">
-                      Load because they are required to provide the service you
-                      request (Article 6 (1)(b) GDPR).
+                      Load because they are required to provide the consultation
+                      service you request (Article 6 (1)(b) GDPR and UAE data
+                      protection regulations).
                     </p>
                   </div>
                   <div className="bg-gradient-to-r from-green-900/30 to-emerald-900/20 border border-green-500/30 rounded-2xl p-6 backdrop-blur-sm">
@@ -147,8 +149,8 @@ const CookieGDPRPolicyPage = () => {
                     <p className="text-green-200 text-base leading-relaxed">
                       All other cookies (analytics, functional, advertising)
                       load only after you give explicit, granular opt-in consent
-                      via our banner (Article 6 (1)(a) GDPR and § 25 TTDSG / UK
-                      PECR).
+                      via our banner (Article 6 (1)(a) GDPR and UAE Free Zone
+                      regulations).
                     </p>
                   </div>
                   <div className="bg-gradient-to-r from-purple-900/30 to-blue-900/20 border border-purple-500/30 rounded-2xl p-6 backdrop-blur-sm">
@@ -200,11 +202,11 @@ const CookieGDPRPolicyPage = () => {
                           Strictly necessary
                         </td>
                         <td className="p-4 text-gray-300">
-                          Login sessions, payment checkout security
+                          Form sessions, contact form security, calculator state
                         </td>
                         <td className="p-4 text-gray-300">up to 24 h</td>
                         <td className="p-4 text-gray-300 font-mono text-sm">
-                          __Host-codaiq_session
+                          __Host-badruk_session
                         </td>
                       </tr>
                       <tr className="border-b border-white/10">
@@ -212,11 +214,11 @@ const CookieGDPRPolicyPage = () => {
                           Functional
                         </td>
                         <td className="p-4 text-gray-300">
-                          Remember language or editor preferences
+                          Remember language or consultation preferences
                         </td>
                         <td className="p-4 text-gray-300">1 – 12 months</td>
                         <td className="p-4 text-gray-300 font-mono text-sm">
-                          codaiq_locale
+                          badruk_locale, consultation_prefs
                         </td>
                       </tr>
                       <tr className="border-b border-white/10">
@@ -236,7 +238,7 @@ const CookieGDPRPolicyPage = () => {
                           Marketing / targeting
                         </td>
                         <td className="p-4 text-gray-300">
-                          Measure campaigns, prevent duplicate ads
+                          Business consultation campaign tracking
                         </td>
                         <td className="p-4 text-gray-300">3 – 6 months</td>
                         <td className="p-4 text-gray-300 font-mono text-sm">
@@ -271,8 +273,8 @@ const CookieGDPRPolicyPage = () => {
                 <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-6">
                   {[
                     {
-                      name: "Stripe",
-                      type: "Payments",
+                      name: "EmailJS",
+                      type: "Contact Forms",
                       color: "from-blue-500/20 to-cyan-500/20",
                     },
                     {
@@ -286,8 +288,8 @@ const CookieGDPRPolicyPage = () => {
                       color: "from-purple-500/20 to-pink-500/20",
                     },
                     {
-                      name: "Meta Ads",
-                      type: "Advertising",
+                      name: "WhatsApp Business",
+                      type: "Communication",
                       color: "from-red-500/20 to-pink-500/20",
                     },
                     {
@@ -296,7 +298,7 @@ const CookieGDPRPolicyPage = () => {
                       color: "from-orange-500/20 to-red-500/20",
                     },
                     {
-                      name: "Cookiebot CMP",
+                      name: "Cookie Consent",
                       type: "Consent Management",
                       color: "from-amber-500/20 to-orange-500/20",
                     },
@@ -314,9 +316,10 @@ const CookieGDPRPolicyPage = () => {
                 </div>
                 <div className="bg-gradient-to-r from-slate-800/30 to-blue-800/20 border border-blue-400/30 rounded-2xl p-4 mb-8 backdrop-blur-sm">
                   <p className="text-gray-300 text-sm leading-relaxed">
-                    Each provider processes data under a data-processing
-                    agreement incorporating Standard Contractual Clauses where
-                    data leaves the EEA/UK.
+                    Each provider processes data under appropriate data
+                    protection agreements incorporating Standard Contractual
+                    Clauses where data transfers occur between UAE and EEA/UK
+                    jurisdictions.
                   </p>
                 </div>
               </section>
@@ -355,7 +358,7 @@ const CookieGDPRPolicyPage = () => {
                     <p className="text-blue-200 text-base leading-relaxed">
                       Alternatively, adjust your browser settings to delete or
                       block cookies altogether. Doing so may degrade certain
-                      features (for example, staying logged in to the builder).
+                      features (for example, consultation form functionality).
                     </p>
                   </div>
                   <div className="bg-gradient-to-r from-purple-900/30 to-pink-900/20 border border-purple-500/30 rounded-2xl p-6 backdrop-blur-sm">
@@ -442,10 +445,10 @@ const CookieGDPRPolicyPage = () => {
                     </h3>
                   </div>
                   <a
-                    href="mailto:privacy@codaiq.com"
+                    href="mailto:info@badruk-group.com"
                     className="inline-flex items-center gap-2 text-purple-300 hover:text-purple-100 underline font-mono bg-purple-500/10 px-4 py-2 rounded-lg transition-colors"
                   >
-                    📧 privacy@codaiq.com
+                    📧 info@badruk-group.com
                   </a>
                 </div>
               </section>
@@ -458,10 +461,11 @@ const CookieGDPRPolicyPage = () => {
                     Data Transfers
                   </h3>
                   <p className="text-orange-200 text-base leading-relaxed">
-                    Personal data may be processed on servers in the United
+                    Personal data may be processed on servers in the UAE, United
                     States or other jurisdictions. We rely on adequacy decisions
                     or Standard Contractual Clauses plus supplementary measures
-                    to protect such transfers.
+                    to protect such transfers in accordance with UAE and
+                    international data protection laws.
                   </p>
                 </div>
 
@@ -473,7 +477,7 @@ const CookieGDPRPolicyPage = () => {
                   <p className="text-green-200 text-base leading-relaxed">
                     All cookies are transmitted over TLS 1.3. Session cookies
                     set the Secure and HttpOnly flags; most use the SameSite=Lax
-                    attribute.
+                    attribute for enhanced security.
                   </p>
                 </div>
 
@@ -486,8 +490,8 @@ const CookieGDPRPolicyPage = () => {
                     We update this notice when we introduce new cookies or
                     change regulatory requirements. The revision date at the top
                     shows the latest version. Substantive changes are announced
-                    via banner and e-mail to registered customers at least 14
-                    days before they take effect.
+                    via banner and e-mail to registered clients at least 14 days
+                    before they take effect.
                   </p>
                 </div>
               </div>
@@ -496,7 +500,7 @@ const CookieGDPRPolicyPage = () => {
               <section id="contact">
                 <h2 className="text-xl sm:text-2xl lg:text-3xl font-semibold bg-gradient-to-r from-white to-blue-200 bg-clip-text text-transparent mt-8 sm:mt-12 mb-6 flex items-center gap-3">
                   <span className="w-10 h-10 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-2xl flex items-center justify-center text-base font-bold text-white shadow-lg">
-                    11
+                    8
                   </span>
                   Contact
                 </h2>
@@ -510,17 +514,17 @@ const CookieGDPRPolicyPage = () => {
                         Data Protection Officer
                       </h3>
                       <div className="text-blue-100 text-base space-y-1">
-                        <p className="font-semibold">Hasan Badruk</p>
-                        <p>Webdesignoo Ltd.</p>
-                        <p>71–75 Shelton Street, Covent Garden</p>
-                        <p>London WC2H 9JQ, United Kingdom</p>
+                        <p className="font-semibold">Hasan Ali Badruk</p>
+                        <p>Visionary Brothers FZCO</p>
+                        <p>IFZA Business Park B2, Silicon Oasis</p>
+                        <p>Dubai, United Arab Emirates</p>
                         <div className="mt-4 pt-4 border-t border-blue-400/20">
                           <p className="font-semibold mb-2">E-mail:</p>
                           <a
-                            href="mailto:privacy@codaiq.com"
+                            href="mailto:info@badruk-group.com"
                             className="inline-flex items-center gap-2 text-blue-300 hover:text-blue-200 underline font-mono bg-blue-500/10 px-3 py-1 rounded-lg transition-colors"
                           >
-                            📧 privacy@codaiq.com
+                            📧 info@badruk-group.com
                           </a>
                         </div>
                       </div>
@@ -555,7 +559,7 @@ const CookieGDPRPolicyPage = () => {
                       Privacy Rights
                     </p>
                     <p className="text-gray-300 text-sm">
-                      Email privacy@codaiq.com
+                      Email info@badruk-group.com
                     </p>
                   </div>
                   <div className="bg-black/20 rounded-2xl p-4 backdrop-blur-sm border border-white/10">

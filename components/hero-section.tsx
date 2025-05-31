@@ -45,7 +45,7 @@ export function HeroSection() {
       <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-5xl md:text-6xl font-bold leading-tight mb-6 text-white animate-in slide-in-from-bottom duration-1000">
-            <span className="bg-gradient-to-r from-teal-400 to-teal-600 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-amber-400 to-yellow-500 bg-clip-text text-transparent">
               Ihre Firmengründung in Dubai
             </span>
             <br />
@@ -56,17 +56,21 @@ export function HeroSection() {
             komplett betreut.
           </p>
           <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4 animate-in slide-in-from-bottom duration-1000 delay-400">
-            <Button className="bg-gradient-to-r from-teal-500 to-teal-600 hover:from-teal-600 hover:to-teal-700 text-white font-semibold px-8 py-4 rounded-xl text-sm uppercase tracking-wide transition-all duration-300 transform hover:scale-105">
-              Kostenlos beraten lassen
+            <Button className="bg-gradient-to-r from-amber-500 to-yellow-600 hover:from-amber-600 hover:to-yellow-700 text-slate-900 font-semibold px-8 py-4 rounded-xl text-sm uppercase tracking-wide transition-all duration-300 transform hover:scale-105 shadow-lg relative overflow-hidden">
+              <span className="relative z-10">Kostenlos beraten lassen</span>
+              {/* Button shine effect */}
+              <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full hover:translate-x-full transition-transform duration-700" />
             </Button>
             <Button
               asChild
               variant="outline"
-              className="bg-white/10 backdrop-blur-md border-white/20 text-white hover:bg-white/20 font-semibold px-8 py-4 rounded-xl text-sm uppercase tracking-wide transition-all duration-300 transform hover:scale-105"
+              className="bg-white/[0.08] backdrop-blur-xl border-white/20 text-white hover:bg-white/[0.15] hover:border-amber-400/30 font-semibold px-8 py-4 rounded-xl text-sm uppercase tracking-wide transition-all duration-300 transform hover:scale-105 shadow-lg relative overflow-hidden"
             >
               <Link target="_blank" href={"https://wa.me/971501234567"}>
-                <MessageCircle className="mr-2 h-4 w-4" />
-                WhatsApp Chat
+                {/* Gold gradient overlay for button */}
+                <div className="absolute inset-0 bg-gradient-to-r from-amber-500/5 to-yellow-500/5 opacity-0 hover:opacity-100 transition-opacity duration-300 rounded-xl" />
+                <MessageCircle className="mr-2 h-4 w-4 relative z-10" />
+                <span className="relative z-10">WhatsApp Chat</span>
               </Link>
             </Button>
           </div>
