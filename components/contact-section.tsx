@@ -136,17 +136,17 @@ export function ContactSection() {
                     {
                       icon: Phone,
                       title: "Telefon Dubai",
-                      content: "+971 4 123 4567",
+                      content: "+971 585 606 084",
                     },
                     {
                       icon: Mail,
                       title: "Email",
-                      content: "dubai@badruk-group.com",
+                      content: "Info@badrukgroup.com",
                     },
                     {
                       icon: MessageCircle,
                       title: "WhatsApp",
-                      content: "+971 50 123 4567",
+                      content: "+971 585 606 084",
                     },
                   ].map((item, index) => (
                     <div

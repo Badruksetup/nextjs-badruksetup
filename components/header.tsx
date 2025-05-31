@@ -13,6 +13,7 @@ import {
   X,
   Zap,
 } from "lucide-react";
+import Link from "next/link";
 import { useEffect, useState } from "react";
 import BadrukLogo from "./logo";
 
@@ -29,8 +30,12 @@ export function Header() {
   ];
 
   const contactInfo = [
-    { icon: Phone, label: "+49 123 456 789", href: "tel:+49123456789" },
-    { icon: Mail, label: "info@badruk.com", href: "mailto:info@badruk.com" },
+    { icon: Phone, label: "+971 585 606 084", href: "tel:+971585606084" },
+    {
+      icon: Mail,
+      label: "Info@badrukgroup.com",
+      href: "mailto:Info@badrukgroup.com",
+    },
     { icon: MapPin, label: "Dubai, UAE", href: "#location" },
   ];
 
@@ -139,7 +144,11 @@ export function Header() {
             {/* Desktop CTA Button */}
             <div className="hidden lg:block flex-shrink-0">
               <Button className="bg-gradient-to-r from-amber-500 to-yellow-600 hover:from-amber-600 hover:to-yellow-700 text-slate-900 font-semibold px-8 py-4 rounded-xl transition-all duration-300 hover:shadow-amber-500/30 hover:scale-[1.02] shadow-lg relative overflow-hidden">
-                <span className="relative z-10">Kostenlos beraten lassen</span>
+                <Link className="text-white" href="/#contact">
+                  <span className="relative z-10">
+                    Kostenlos beraten lassen
+                  </span>
+                </Link>
                 {/* Button shine effect */}
                 <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full hover:translate-x-full transition-transform duration-700" />
               </Button>
@@ -262,9 +271,11 @@ export function Header() {
                     {/* CTA Button */}
                     <div className="pt-6">
                       <button className="w-full bg-gradient-to-r from-amber-500 to-yellow-600 hover:from-amber-600 hover:to-yellow-700 text-slate-900 font-semibold px-6 py-4 rounded-2xl transition-all duration-300 hover:shadow-amber-500/30 hover:scale-[1.02] shadow-lg relative overflow-hidden group">
-                        <span className="relative z-10 text-lg">
-                          Kostenlos beraten lassen
-                        </span>
+                        <Link className="text-white" href="/#contact">
+                          <span className="relative z-10 text-lg">
+                            Kostenlos beraten lassen
+                          </span>
+                        </Link>
                         {/* Button shine effect */}
                         <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-700" />
                       </button>

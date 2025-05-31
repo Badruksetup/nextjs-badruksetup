@@ -57,7 +57,9 @@ export function HeroSection() {
           </p>
           <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4 animate-in slide-in-from-bottom duration-1000 delay-400">
             <Button className="bg-gradient-to-r from-amber-500 to-yellow-600 hover:from-amber-600 hover:to-yellow-700 text-slate-900 font-semibold px-8 py-4 rounded-xl text-sm uppercase tracking-wide transition-all duration-300 transform hover:scale-105 shadow-lg relative overflow-hidden">
-              <span className="relative z-10">Kostenlos beraten lassen</span>
+              <Link className="text-white" href="/#contact">
+                <span className="relative z-10">Kostenlos beraten lassen</span>
+              </Link>
               {/* Button shine effect */}
               <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full hover:translate-x-full transition-transform duration-700" />
             </Button>
@@ -66,7 +68,7 @@ export function HeroSection() {
               variant="outline"
               className="bg-white/[0.08] backdrop-blur-xl border-white/20 text-white hover:bg-white/[0.15] hover:border-amber-400/30 font-semibold px-8 py-4 rounded-xl text-sm uppercase tracking-wide transition-all duration-300 transform hover:scale-105 shadow-lg relative overflow-hidden"
             >
-              <Link target="_blank" href={"https://wa.me/971501234567"}>
+              <Link target="_blank" href={"https://wa.me/971585606084"}>
                 {/* Gold gradient overlay for button */}
                 <div className="absolute inset-0 bg-gradient-to-r from-amber-500/5 to-yellow-500/5 opacity-0 hover:opacity-100 transition-opacity duration-300 rounded-xl" />
                 <MessageCircle className="mr-2 h-4 w-4 relative z-10" />
