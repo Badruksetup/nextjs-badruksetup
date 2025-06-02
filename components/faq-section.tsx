@@ -25,11 +25,11 @@ export function FAQSection() {
           <ul className="mt-2 space-y-2 pl-5">
             <li className="flex items-start">
               <span className="w-2 h-2 bg-amber-400 rounded-full mr-2 mt-2 flex-shrink-0"></span>
-              <span>Freezone-Gründungen: 5 – 10 Werktage</span>
+              <span>Freezone-Gründungen: 2 - 3 Werktage</span>
             </li>
             <li className="flex items-start">
               <span className="w-2 h-2 bg-amber-400 rounded-full mr-2 mt-2 flex-shrink-0"></span>
-              <span>Mainland-Gründungen: 10 – 15 Werktage</span>
+              <span>Mainland-Gründungen: 4 – 5 Werktage</span>
             </li>
             <li className="flex items-start">
               <span className="w-2 h-2 bg-amber-400 rounded-full mr-2 mt-2 flex-shrink-0"></span>
@@ -48,15 +48,14 @@ export function FAQSection() {
             <li className="flex items-start">
               <span className="w-2 h-2 bg-amber-400 rounded-full mr-2 mt-2 flex-shrink-0"></span>
               <span>
-                <strong>Freezone:</strong> Ideal für internationale Geschäfte,
+                <strong>Freezone:</strong> Ideal für internationale Geschäfte, Onlinehandel, Onlinedienste
                 100 % Eigentum
               </span>
             </li>
             <li className="flex items-start">
               <span className="w-2 h-2 bg-amber-400 rounded-full mr-2 mt-2 flex-shrink-0"></span>
               <span>
-                <strong>Mainland:</strong> Für lokale Geschäfte, benötigt 51 %
-                lokalen Partner
+                <strong>Mainland:</strong> Für lokale Geschäfte, z.B. Restaurant, Werkstatt, Bauunternehmung
               </span>
             </li>
             <li className="flex items-start">
@@ -92,23 +91,23 @@ export function FAQSection() {
           <ul className="mt-2 space-y-2 pl-5">
             <li className="flex items-start">
               <span className="w-2 h-2 bg-amber-400 rounded-full mr-2 mt-2 flex-shrink-0"></span>
-              <span>Lizenzgebühren: AED 10 000 – 50 000</span>
+              <span>Lizenzgebühren: EUR 6.000 – 15.000</span>
             </li>
             <li className="flex items-start">
               <span className="w-2 h-2 bg-amber-400 rounded-full mr-2 mt-2 flex-shrink-0"></span>
-              <span>Registrierung: AED 2 000 – 10 000</span>
+              <span>Registrierung: EUR 500 – 2.000</span>
             </li>
             <li className="flex items-start">
               <span className="w-2 h-2 bg-amber-400 rounded-full mr-2 mt-2 flex-shrink-0"></span>
-              <span>Visum: AED 3 000 – 7 000 / Person</span>
+              <span>Visum: EUR 1.600 – 2.600 / Person</span>
             </li>
             <li className="flex items-start">
               <span className="w-2 h-2 bg-amber-400 rounded-full mr-2 mt-2 flex-shrink-0"></span>
-              <span>Büroadresse: AED 5 000 – 20 000 p.a.</span>
+              <span>Büroadresse: EUR 1.000 – 3.000 p.a.</span>
             </li>
           </ul>
           <p className="mt-3">
-            Unsere Komplettpakete starten bei AED 15 000 (≈ 3 700 €) inkl.
+            Unsere Komplettpakete starten bei EUR 7.499 inkl.
             Visum.
           </p>
         </div>
