@@ -18,21 +18,21 @@ export function ProcessSection() {
       title: "Firmengründung",
       description:
         "Beantragung der Lizenz, Registierung und Erledigung aller behördlichen Formalitäten.",
-      duration: "5-10 Tage",
+      duration: "2-3 Tage",
     },
     {
       number: 3,
       title: "Visum & Dokumente",
       description:
         "Beantragung Ihres Residenzvisums, Emirates ID und aller notwendigen Dokumente.",
-      duration: "7-14 Tage",
+      duration: "3-4 Tage",
     },
     {
       number: 4,
       title: "Geschäft aufnehmen",
       description:
         "Bankkontoeröffnung, Büroeinrichtung und Start Ihres Geschäftsbetriebs.",
-      duration: "3-7 Tage",
+      duration: "3-4 Tage",
     },
   ];
 
@@ -128,7 +128,7 @@ export function ProcessSection() {
                 <h3 className="text-2xl sm:text-3xl font-bold mb-4 text-white">
                   Gesamtdauer:{" "}
                   <span className="text-amber-400 bg-gradient-to-r from-amber-400 to-yellow-500 bg-clip-text text-transparent">
-                    2-4 Wochen
+                    1-2 Wochen
                   </span>
                 </h3>
                 <p className="text-gray-300 group-hover:text-gray-200 transition-colors duration-300 text-base sm:text-lg leading-relaxed">
